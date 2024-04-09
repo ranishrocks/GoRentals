@@ -1,6 +1,10 @@
 .footer {
-    background-color: #15558d;
+    background-color: #fef0d6; /* Set background color */
+    color: #333333; /* Set text color */
 }
+
+/* Add more CSS rules as needed */
+
 .footer a {
     text-decoration: none;
 }
@@ -8,7 +12,7 @@
 	padding: 40px 0;
 }
 .footer-title {
-    color: #fff;
+    color: #333333;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 30px;
@@ -24,7 +28,7 @@
 	margin-bottom: 30px;
 }
 .footer .footer-widget .footer-about-content p {
-	color: #fff;
+	color: #333333;
 }
 .footer .footer-widget .footer-about-content p:last-child {
 	margin-bottom: 0;
@@ -37,7 +41,7 @@
 	margin-bottom: 0;
 }
 .footer .footer-menu ul li a {
-	color: #fff;
+	color: #333333;
 	font-size: 15px;
 	transition: all 0.4s ease 0s;
 }
@@ -45,12 +49,12 @@
 	margin-right: 5px;
 }
 .footer .footer-widget.footer-menu ul li a:hover {
-	color: #fff;
+	color: #333333;
 	letter-spacing: 0.5px;
 	padding-left: 10px;
 }
 .footer-contact-info {
-	color: #fff;
+	color: #333333;
 	font-size: 15px;
 }
 .footer-contact-info .footer-address {
@@ -72,7 +76,7 @@
 	padding: 30px 0;
 }
 .footer .footer-bottom .copyright-text p {
-	color: #fff;
+	color: #333333;
 	font-size: 15px;
 }
 .footer .footer-bottom .copyright-text p a {
@@ -82,7 +86,7 @@
 	transition: all 0.4s ease 0s;
 }
 .footer .footer-bottom .copyright-text p a:hover {
-	color: #fff;
+	color: #333333;
 }
 .footer .footer-bottom .copyright-text p.title {
 	font-weight: 400;
@@ -103,7 +107,7 @@
 	margin-right: 0;
 }
 .footer .social-icon ul li a {	
-	color: #fff;
+	color: #333333;
 	display: -webkit-inline-box;
 	display: -ms-inline-flexbox;
 	display: inline-flex;
@@ -113,3 +117,12 @@
 .footer .social-icon ul li a:hover {
 	color: #09e5ab;
 }
+
+.custom-link-color {
+    color: #333333; /* Set the desired text color */
+}
+
+.custom-link-color:hover {
+    color: #333333; /* Set the desired text color on hover (can be the same as normal state) */
+}
+

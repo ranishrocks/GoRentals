@@ -20,4 +20,19 @@
     position: absolute;
     content: "";
     background: url("../../images/doc/doc4.jpg") no-repeat 50% 50%;
+
 }
+.col-lg-8 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align content to the right */
+}
+
+
+
+.col-lg-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

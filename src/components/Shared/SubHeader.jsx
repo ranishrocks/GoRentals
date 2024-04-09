@@ -1,9 +1,9 @@
 import React from 'react';
-import bgImage from '../../images/img/banner.jpg'
+import bgImage from '../../images/img/bullet_subheader.png';
 
-const SubHeader = ({title, subtitle}) => {
+const SubHeader = ({ title, subtitle }) => {
     const sectionStyle = {
-        background: `url(${bgImage}) no-repeat 50% 50%`,
+        background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bgImage}) no-repeat 50% 50%`,
         backgroundSize: 'cover',
         position: 'relative',
         marginTop: '88px',
@@ -19,7 +19,7 @@ const SubHeader = ({title, subtitle}) => {
         right: '0',
         width: '100%',
         height: '100%',
-        opacity: '0.9',
+        opacity: '0.5', // Adjust the opacity as desired
         background: '#223a66',
     };
 
@@ -30,7 +30,7 @@ const SubHeader = ({title, subtitle}) => {
                 <div className="row">
                     <div className="col-md-12">
                         <div className='mb-4 section-title text-center'>
-                            <h2 className='text-white text-uppercase'>{title}</h2>
+                            <h2 className='text-white text'>{title}</h2>
                             <p className='text-white m-0'>{subtitle && subtitle}</p>
                         </div>
                     </div>
