@@ -20,7 +20,7 @@ const Home = () => {
             <InfoPage />
             <Service />
             <ClinicAndSpecialities />
-            <BookDoctor />
+            
             <Blog />
             <Availabe />
             <OurDoctors/>

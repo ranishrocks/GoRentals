@@ -28,7 +28,11 @@
     justify-content: flex-end; /* Align content to the right */
 }
 
-
+.small-image {
+    max-width: 50px; /* Adjust as needed */
+    max-height: 50px; /* Adjust as needed */
+  }
+  
 
 .col-lg-6 {
     display: flex;

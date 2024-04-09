@@ -7,6 +7,7 @@ import activaWhiteImage from '../../images/img/activa_white.png'; // White activ
 import rentalImage from '../../images/img/rental_image.jpg'; // Image for rental services
 import backgroundImage from '../../images/img/background_image.jpg'; // Background image for section
 import bulletImage from '../../images/img/bullet.jpg';
+
 import './Service.css';
 
 const Service = () => {
@@ -56,14 +57,13 @@ const Service = () => {
       </section>
 
       
-      <section className="py-5">
-        <div className="container text-center text-black">
-          <h2 className="mb-4">Contact Us Today</h2>
-          <p className="lead mb-4">Ready to embark on an unforgettable adventure in Ahmedabad? Contact GoRentals today to book your rental vehicle and unlock the gateway to exploration. Let's make your Ahmedabad experience truly exceptional, one ride at a time.</p>
-          <Link to="/contact" className="btn btn-dark">Get Started</Link>
-        </div>
-      </section>
-
+  <section className="py-5">
+    <div className="container text-center text-black">
+      <h2 className="mb-4">Contact Us Today</h2>
+      <p className="lead mb-4">Ready to embark on an unforgettable adventure in Ahmedabad? Contact GoRentals today to book your rental vehicle and unlock the gateway to exploration. Let's make your Ahmedabad experience truly exceptional, one ride at a time.</p>
+      <Link to="/contact" className="btn btn-dark">Get Started</Link>
+    </div>
+  </section>
       <Footer />
     </>
   );

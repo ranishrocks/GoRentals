@@ -2,7 +2,7 @@ import React from 'react';
 import './InfoPage.css';
 import { FaClock, FaHeadset,FaHouseUser  } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-
+import { TbMotorbike } from "react-icons/tb";
 const InfoPage = () => {
     return (
         <section className="why-us mt-5 mt-md-0">
@@ -13,11 +13,11 @@ const InfoPage = () => {
                         <div className="content">
                             <h3>Why Choose Us?</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
-                            </p>
+                            
+
+Discover the joy of biking with us. Our vast selection of bikes ensures a smooth ride for every adventure. With convenient online booking, expert guidance, and competitive rates, we make exploring the outdoors easy and affordable. Plus, our commitment to sustainability means you can pedal with peace of mind. Choose us for an unforgettable biking experience.</p>
                             <div className="text-center">
-                                <Link href="/" className="more-btn">Learn More <i className="bx bx-chevron-right"></i></Link>
+                                <Link to={'/about'} className="more-btn">Learn More <i className="bx bx-chevron-right"></i></Link>
                             </div>
                         </div>
                     </div>
@@ -27,17 +27,20 @@ const InfoPage = () => {
                                 <div className="col-xl-4 d-flex align-items-stretch">
                                     <div className="icon-box mt-4 mt-xl-0">
                                         <FaHouseUser className="icon"/>
-                                        <h4>Appointment</h4>
+                                        <h4>Booking</h4>
                                         <small className='text-secondary'>24 Hours Service</small>
-                                        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                                        <p>
+
+Experience hassle-free booking with our 24-hour service. Whether you're planning a spontaneous adventure or need to schedule in advance, our dedicated team is here to assist you around the clock. Enjoy peace of mind knowing that your booking needs are always met promptly and efficiently. Choose convenience, choose reliability, choose us for all your booking requirements.</p>
                                     </div>
                                 </div>
                                 <div className="col-xl-4 d-flex align-items-stretch">
                                     <div className="icon-box mt-4 mt-xl-0">
-                                        <FaHeadset className="icon"/>
-                                        <h4>Emegency Cases</h4>
-                                        <h6 className='text-secondary'>+88 01751 040425</h6>
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui facilis perferendis quia maxime. Laborum excepturi pariatur laboriosam nihil, dolor molestias.</p>
+                                        <TbMotorbike className="icon"/>
+                                        <h4>Exceptional Bikes, Unbeatable Prices</h4>
+                                        <p>Discover the freedom of the road with our top-quality bikes and scooters, crafted for every journey. Whether you're exploring city streets or scenic routes, our vehicles promise comfort, style, and performance.
+
+Experience the thrill without breaking the bank. With our affordable rates, your next adventure is closer than you think. Book now and ride in style!</p>
                                     </div>
                                 </div>
                                 <div className="col-xl-4 d-flex align-items-stretch">
