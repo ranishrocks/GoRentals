@@ -1,20 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './index.css';
 import { Link } from 'react-router-dom';
-import DatePicker from 'react-datepicker';
-import 'react-datepicker/dist/react-datepicker.css';
-import TimePicker from 'react-time-picker';
-import 'react-time-picker/dist/TimePicker.css';
 
 const HeroSection = () => {
-    const [selectedDate, setSelectedDate] = useState(null);
-    const [selectedTime, setSelectedTime] = useState(null);
-
     return (
-        <section id="hero" className="d-flex align-items-center">
-            <div className="container">
+        <section id="hero" className="d-flex align-items-start justify-content-center">
+            <div className="container text-center pt-5"> {/* Added pt-5 class for top padding */}
                 <div>
-                    
                     <h1>YOUR BIKE RENTAL DESTINATION</h1>
                     <small>Discover the thrill of riding with our vast selection of bikes. Whether it's for a leisurely ride through the city or an adventurous journey through scenic routes, we have the perfect bike for you.</small>
                 </div>
@@ -22,8 +14,6 @@ const HeroSection = () => {
                     <Link to={'/service'} className="btn-get-started scrollto">View Available Bikes</Link>
                     <Link to={'/track-appointment'} className="btn-get-started scrollto">Track Rental</Link>
                 </div>
-              
-                
             </div>
         </section>
     );

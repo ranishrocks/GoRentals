@@ -1,11 +1,18 @@
 #hero {
+  position: absolute; /* Position the hero section absolutely */
+  top: 0; /* Align the hero section to the top of the page */
+  left: 0; /* Align the hero section to the left of the page */
   width: 100%;
-  height: 90vh;
   background: url("../../../images/img/hero-bg.jpg") top center;
   background-size: cover;
-  margin-bottom: -115px;
-  margin-top: 80px;
+  height: 90vh;
 }
+
+/* Adjust other styles as needed */
+
+
+/* Other CSS rules remain the same */
+
 
 #hero .container {
   position: relative;
